@@ -51,15 +51,20 @@ p mlk
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 def square(x)
     x * x
-    print "If you square #{x}, the answer is #{x * x} "
 end
 
 square2 = square (2)
 square3 = square (3)
 
-square2
-square3
+p square2
+p square3
 # Bonus: Print a sentence that interpolates the return value of your square method.
+
+def square(x)
+    print "If you square #{x}, the answer is #{x * x}"
+end
+square2 = square (2)
+square3 = square (3)
 
 # What is the return value of your method? x * x
 # How many arguments did you pass your method? two
